@@ -8,6 +8,14 @@ Para rodar todo o projeto basta ir na pasta ng-cash e rodar o docker-compose
 docker compose -f "docker-compose.yml" up -d --build
 ```
 
+Agora para acessar o site só entrar no [localhost:5432](http://localhost:5432/) o visualizador do Banco de Dados pode utilizar o Prisma Studio acessando o [localhost:5000](http://localhost:5000/)
+
+Se desejar utilizar outro cliente SQL só conectar com a string de conexão
+
+```
+postgresql://postgres:Senha123@postgres_DB:5432/ng_bank
+```
+
 ## Utilizando meu banco de dados PostgreSQL
 
 > Jeito mais rápido de testar utilizando meu banco dados hospedado no [render](https://render.com/)
