@@ -1,0 +1,12 @@
+{
+  "name": "ng-cash",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "cd ./servidor && npm install && cd .. && cd ./interface && npm install",
+    "servidor": "cd ./servidor && npm run dev",
+    "interface": "cd ./interface && npm run dev",
+    "create_table": "cd ./servidor && npm run create_table"
+  }
+}
